@@ -1,5 +1,0 @@
-isntall postgresql package on AUR repo.
-for configuration first we should create a new database cluster; this is for initilizing database required storage area on disk.
-
-
-and also a database cluster is a set of databased that managed by a single instance of running database server. after intalling and configuring cluster properly, the cluster will contain a databse named `postgres` which used for utilities, users and thirthy party libraries. 0
