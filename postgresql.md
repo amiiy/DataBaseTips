@@ -9,7 +9,7 @@ In file system terms, a database cluster is a single directory under which all d
 
 #### Extera Tip:
 
-    Tip: As an alternative to the -D option, you can set the environment variable PGDATA.
+     As an alternative to the -D option, you can set the environment variable PGDATA.
 
 and as documentation say this directory should be owned by `postgres` user, so: `chown /usr/local/pgql/data postgres`
 and also keep in mind that if we change the root to anything other than `/var/lib/postgres` we should edit the `PIDFile` section in service file.
@@ -18,7 +18,7 @@ and also keep in mind that if we change the root to anything other than `/var/li
 
 #### TIP:
 
-    Tip: If you create a PostgreSQL user with the same name as your Linux username, it allows you to access the PostgreSQL database shell without having to specify a user to login (which makes it quite convenient).
+    If you create a PostgreSQL user with the same name as your Linux username, it allows you to access the PostgreSQL database shell without having to specify a user to login (which makes it quite convenient).
 
 for creating user and database we can use `createuser --interactive` and `crreatedb dbName` commands
 
